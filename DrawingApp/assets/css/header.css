@@ -1,0 +1,197 @@
+#header {
+    height: 5em;
+    background-color: #272727;
+}
+
+#header #nav-menu {
+    display: inline-block;
+    float: left;
+    margin-top: 1.3em;
+    margin-left: 1.5em;
+    margin-right: -1em;
+    line-height: 1.2em;
+    color: lightgrey;
+}
+
+#nav-menu #sign-in {
+    display: inline-block;
+    float: right;
+    margin-right: 4.5em;
+    color: lightgrey;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+#nav-menu #origUser:hover {
+    color: #ffffff;
+}
+
+#nav-menu #save:hover {
+    color: #ffffff;
+}
+
+#origUser, #save {
+    display: inline-block;
+    margin-right: 0.5em;
+    padding: 0.56em;
+    background-color: #4f4f4f;
+    border-radius: 0.3em;
+    width: auto;
+}
+
+#radToolbar {
+    display: inline-block;
+    float: left;
+    margin-top: 1.4em;
+    color: lightgrey;
+}
+
+#rad {
+    padding: 0.6em;
+    background-color: #5c5c5c;
+    border-radius: 0.3em;
+}
+
+.radcontrol {
+    width: 2.5em;
+    height: 1.25em;
+    float: right;
+    margin-left: 0.5em;
+    margin-top: -0.15em;
+    background-color: #4b4b4b;
+    text-align: center;
+    line-height: 1.2em;
+    border-radius: 0.2em;
+}
+
+.radcontrol:hover {
+    background-color: #2e2c2c;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#radval {
+    display: inline-block;
+    width: 1.5em;
+}
+
+#save, #origUser {
+    cursor: pointer;
+}
+
+#undoRedo {
+    display: inline-block;
+    width: 10em;
+    float: left;
+    margin-top: 1.3em;
+    margin-left: 2em;
+    line-height: 1.2em;
+    color: lightgrey;
+}
+
+#undo, #redo {
+    display: inline-block;
+    padding: 0.56em;
+    background-color: #4f4f4f;
+    border-radius: 0.3em;
+    width: 3em;
+}
+
+#undo:hover, #redo:hover {
+    background-color: #434242;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#fontToolbar {
+    display: inline-block;
+    width: 10em;
+    float: left;
+    margin-top: 1.4em;
+    margin-left: 1.6em;
+    line-height: 1.2em;
+    color: lightgrey;
+}
+
+#fontFamily {
+    padding: 0.5em;
+    background-color: #5c5c5c;
+    border-radius: 0.3em;
+}
+
+#fontFamily select {
+    background-color: grey;
+    background: none;
+    focus: none;
+    border: none;
+    color: lightgrey;
+}
+#fontFamily select:focus { 
+    background: grey;
+}
+
+#saveFormat {
+    display: inline-block;
+    width: 10em;
+    float: left;
+    margin-top: 2.9em;
+    margin-left: -2.5em;
+    line-height: 1.2em;
+    color: lightgrey;
+    font-size: 80%;
+}
+
+#colors {
+    display: inline-block;
+    width: 18em;
+    height: 3em;
+    float: left;
+    margin-top: 1em;
+    margin-left: 2em;
+    color: lightgrey;
+    /*border: 1px solid white;*/
+}
+
+#colors .colorSet {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    float: left;
+    margin: 0.45em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;;
+    border-radius: 50%;
+    z-index: 9999;
+}
+
+#lightgrey {
+    background-color: #5c5c5c;
+    box-shadow: 0 0 1px #5c5c5c;
+}
+
+#orange {
+    background-color: #de8e03;
+    box-shadow: 0 0 1px #de8e03;
+}
+
+#red {
+    background-color: #c92206;
+    box-shadow: 0 0 1px #c92206;
+}
+
+#yellow {
+    background-color: #dbcf0d;
+    box-shadow: 0 0 1px #dbcf0d;
+}
+
+#green {
+    background-color: #21af00;
+    box-shadow: 0 0 1px #21af00;
+}
+
+#blue {
+    background-color: #2ca3e7;
+    box-shadow: 0 0 1px #2ca3e7;
+}
+
+
+

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 100%;
+    height: 100%;
+    font-family: "Arial, Helvetica", sans-serif;
+    user-select: none;
+}
+
+#container {
+        height: 100%;
+        text-align: center;
+}
+
+@media all and (max-width: 1280px) {
+    #header {
+      height: 10em;  
+    }
+}
+
+@media all and (max-width: 768px) {
+    #header {
+      height: 15em;  
+    }
+}
+
+@media all and (max-width: 481px) {
+    #header {
+      height: 20em;  
+    }
+}
+
+
+
+
+
